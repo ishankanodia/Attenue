@@ -9,7 +9,7 @@ import numpy as np
 import face_recognition
 import os
 
-path = '/Users/ishankanodia/Desktop/SEM 5/Innovation Lab/fold'
+path = '/Users/ishankanodia/Desktop/SEM 5/Innovation Lab/fold'    #Edit this line if you want to run this code on your laptop and give the address of the folder with the images of the persons
 images = []
 classNames = []
 myList = os.listdir(path)
